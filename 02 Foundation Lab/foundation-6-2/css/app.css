@@ -1,0 +1,108 @@
+div{
+  /*border: 1px solid black;*/
+}
+
+body {
+	background-image: url(../../Metrochef-Trama-Fondo.jpg)
+}
+
+.page {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: rgba(215, 204, 200, 0.6);
+}
+.nopadding {
+	padding: 0px;
+}
+.padding {
+	padding: 5px;
+}
+.color-primary {
+	background-color: #795548;
+}
+.color-primary-light {
+	background-color: #a98274;
+}
+.color-primary-dark {
+	background-color: #4b2c20;
+}
+.color-primary-text {
+	color: #eceff1;
+	font-family: 'PT Sans Narrow', sans-serif !important;
+	font-size: 20px;
+}
+.color-secondary {
+	background-color: #bdbdbd;
+}
+.color-secondary-light {
+	background-color: #efefef;
+}
+.color-secondary-dark {
+	background-color: #8d8d8d;
+}
+.color-secondary-text {
+	color: #4e342e;
+	font-family: 'PT Sans Narrow', sans-serif !important;
+	font-size: 20px;
+}
+.buttondg {
+	height: 40px !important;
+	text-align: left;
+	padding: 6px;
+	margin: 0px;
+	margin-top: 3px !important;
+}
+.searchdg {
+	text-align: left;
+	padding: 6px;
+	margin: 0px;
+	margin-top: 3px !important;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 45px;
+	line-height: 45px;
+
+}
+h3 {
+	font-family: 'Playfair Display', serif !important;
+	font-size: 21px;
+	text-align: right;
+}
+.date {
+	font-family: 'Playfair Display', serif !important;
+	font-size: 17px;
+	text-align: left;
+	line-height: 19px;
+	margin-top: 0 px;
+	margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.entradaBlog {
+	padding: 15px;
+	padding-bottom: 0px !important;
+}
+
+.entradaUser {
+		padding-bottom: 0px !important;
+	line-height: 22px;
+	margin-top: 5px;
+}
+
+.blogDate {
+	color: #eceff1;
+	font-family: 'PT Sans Narrow', sans-serif !important;
+	font-size: 14px;
+	padding-top: 2px;
+}
+
+.border-image {
+	  border: 2px solid #bdbdbd;	
+}
