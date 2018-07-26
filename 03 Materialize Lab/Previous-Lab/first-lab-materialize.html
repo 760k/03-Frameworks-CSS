@@ -5,15 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="../materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+  <link href="../materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+
   <title></title>
+  <style>
+  .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #ad1457;
+    display: inline-block;
+  }
+  </style>
 </head>
 <body>
 
 <!--Manejo de las áreas-->
-<div class="card-panel #5e35b1 deep-purple darken-1">Primer card panel</div>
+<div class="card-panel #5e35b1 deep-purple darken-1 no-padding">Primer card panel</div>
 
 <!--Manejo del Texto-->
-<div class="card-panel #5e35b1 #7e57c2 deep-purple lighten-1">
+<div class="card-panel #5e35b1 #7e57c2 deep-purple lighten-1 no-padding">
   <span class="#e1bee7 purple-text text-lighten-4">Primer card panel</span>
 </div>
 <div class="card-panel #5e35b1 #b39ddb deep-purple lighten-3">Primer card panel</div>
@@ -50,13 +60,148 @@ pull-m2">Fila que acupa 4 columnas</div>
 <!--Truncate-->
 <div class="row">
 <div class="col l12 m12 s12"></div>
-<div class="card-panel #00acc1 cyan darken-1" style="width:250px;margin=0auto;"><p class="truncate">Este es un texto truncado vamos a ver cuando, This is a card panel with a teal lighten-2 class</p></div>
+
+<div class="card-panel #00acc1 cyan darken-1" style="width:250px;margin=0auto;">
+<p class="truncate">Este es un texto truncado vamos a ver cuando, This is a card panel with a teal lighten-2 class</p>
 </div>
+</div>
+
+<!--Sombras, citas y texto adaptativo-->
+<div class="row">
+<div class="col l12 m12 s12">
+<p class="cuadrado z-depth-1">Sombras y Texto Adaptativo</p>
+<p class="cuadrado z-depth-2">Sombras y Texto Adaptativo</p>
+<p class="cuadrado z-depth-5">Sombras y Texto Adaptativo</p>
+<p class="flow-text">Este es un texto truncado vamos a ver cuando, This is a card panel with a teal lighten-2 class</p>
+<blockquote>Esto es una cita en Materialize</blockquote>
+</div>
+</div>
+
+<!--Tablas y multimedia-->
+<!--https://learn.nextu.com/mod/lesson/view.php?id=5556&pageid=24695&pid=P_WEBDEV_V2-->
+<!--Manejo de Imágenes-->
+<div class="row">
+  <div class="col s6 offset-s1">
+    <div class="card">
+      <img class="circle responsive-img" src="Woman.jpg">
+    </div>
+  </div>
+</div>
+
+<!--Manejo de Videos-->
+<div class="row">
+  <div class="col s10 offset-s1">
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9Bmq3-4tfA0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!--Cards, Chips y Collections-->
+<!--(Cards) - Rectangulo que contiene texto, imagenes o enlaces-->
+
+
+<div class="row">
+
+
+  <div class="col s12 m6">
+    <div class="card #7b1fa2 purple darken-2">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="Automovil-Nissan-March-04.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-lighten-3">Card Title<i class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m6">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="Automovil-Nissan-March-01.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4" style="margin-top:0px;">Nissan<i class="material-icons right">close</i></span>
+
+<img src="Automovil-Nissan-March-01.jpg" width="100%">
+
+        <p>Here is some more information about this product that is only revealed once clicked on.
+        Here is some more information about this product that is only revealed once clicked on.</p>
+        <hr>
+        <p>Here is some more information about this product that is only revealed once clicked on.
+        Here is some more information about this product that is only revealed once clicked on.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+  <!--(Chip) - Rectangulo que contiene texto, imagenes o enlaces-->
+</div>
+<div class="row">
+  <div class="col s6">
+    <div class="chip">
+      <img src="Automovil-Nissan-March-04.jpg">Hola, aqui el contenedor chip.
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="collection">
+    <a href="first-lab-materialize.html" class="collection-item">Item 1</a>
+    <a href="#" class="collection-item">Item 2</a>
+    <a href="#" class="collection-item">Item 3</a>
+  </div>
+</div>
+
+
+<!--Barra de Navegación-->
+<!--Dejar barra fija-->
+<!--div class="navbar-fixed"-->
+
+<nav>
+  <div class="nav-wrapper">
+    <a class="brand-logo left" href="Red-Social-Logo.png">
+      <ul class="right"><!--hide-on-med-and-down-->
+        <li class="active"><a href="#">Opción 1</a></li>
+        <li><a href="http:www.760k.com">Opción 2</a></li>
+        <li><a href="#">Opción 3</a></li>
+      </ul>
+
+  </div>
+</nav>
+
+</div>
+
+
+<ul class="center pagination #e1bee7 purple-text text-lighten-4">
+  <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+  <li class="active #b71c1c red darken-4"><a href="#!">1</a></li>
+  <li class="waves-effect"><a href="#!">2</a></li>
+  <li class="waves-effect"><a href="#!">3</a></li>
+  <li class="waves-effect"><a href="#!">4</a></li>
+  <li class="waves-effect"><a href="#!">5</a></li>
+  <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+</ul>
+
 
 
 <!--Color Palettes en https://materializecss.com/color.html-->
 <!--Javascript components-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
-<script type="text/javascript" src="materialize/js/materialize.min.js"/></script>
+<script type="text/javascript" src="../materialize/js/materialize.min.js"/></script>
 </body>
 </html>

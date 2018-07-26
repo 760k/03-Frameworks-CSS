@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("Pattern.jpg");
+}
+
+.barLogoDG {
+	margin-left: 25px;
+}
+
+.barNavDG {
+	height: 100px;
+	background-color: transparent !important;
+}
+
+a.barNavDG {
+	height: 100px;
+}
+
+a.barNavDG:hover {
+	height: 100px;
+	background-color:rgba(189,67,0,1.00) !important;
+}
+
+.socialIconsDG {
+	width:100%;
+	max-width: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.nopadshadmarg {
+	padding: 0px;
+	margin: 0px;
+	box-shadow: 0px 0px;
+}
+.image8 {
+	background-image: url(Trinidad.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.Tobago {
+	background-image: url(Tobago.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.People-Trinidad {
+	background-image: url(People-Trinidad.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.LagoRojo {
+	background-image: url(la-laguna-roja1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.LagoRojoDos {
+	background-image: url(Laguna-Colorada-Bolivia3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.LagoVerde {
+	background-image: url(laguna_verde_bolivia.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.pageDG {
+	width: 100%;
+	max-width: 1150px !important;
+	margin: 0 auto !important;
+	margin-top: 10px !important;
+	background-color: black;
+	padding: 10px;
+	background-color: rgba(230,230,230,0.65);
+}
+
+.clearfix::after {
+     content: "";
+      clear: both;
+      display: block;
+    }
+
+h1 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 30px;
+	text-align: center;
+}

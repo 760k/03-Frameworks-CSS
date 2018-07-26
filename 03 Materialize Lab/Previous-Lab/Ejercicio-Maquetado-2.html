@@ -6,32 +6,77 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="../materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen, projection"/>
   <link href="../materialize/css/dgmaterialCustom.css" type="text/css" rel="stylesheet" media="screen, projection"/>
-  <title></title>
+  <style>
+  .logo{
+    width: 203px;
+    margin-top: 0.5rem;
+  }
+  .noticias {
+    min-height: 30rem;
+    height: 50rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  </style>
+  <title>Red Social </title>
 </head>
 <body>
-
 <div class="row">
+
 <!--Navigation-->
-<div class="card-panel l12 m12 s12 #ffb74d orange lighten-2 bar">&nbsp;</div>
+<div class="col l12 m12 s12 #ffb74d orange lighten-2 bar">
+  <div class="col" style="height:auto;">
+    <img src="Red-Social-Logo.png" class="logo">
+  </div>
+</div>
 
 
-<div class="card-panel l2 m2 s2 #fdd835 yellow darken-1 izq1 push-s10">&nbsp;</div>
+<!--Barra Lateral-->
+<div class="col l2 m2 s2 #fdd835 yellow darken-1 izq1 push-s10">&nbsp;</div>
+
 <!--Columna principal-->
-<div class="card-panel l7 m7 s10 #ff8f00 amber darken-3 izq1">
+<div class="col l7 m7 s10 izq1 z-depth-1">
   <div class="row">
-    <div class="card-panel l8 m12 s12 #ffa726 orange lighten-1 izq1 pull-s2"></div>
 
+    <!--Columna de Publicaciones-->
+    <div class="col l8 m12 s12 izq1 pull-s2">
+      <div class="card #e53935 red darken-1" style="height:7rem;"></div>
 
-    <div class="card-panel l3 m3 s3 #fff176 yellow lighten-2 izq1 hide-on-med-and-down offset-l1"></div>
+      <!--Video Component-->
+      <div class="card #e53935 red darken-1" style="min-height:17rem; padding:2rem;">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9Bmq3-4tfA0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!--Text Component-->
+      <div class="card #e53935 red darken-1 #c5cae9 indigo-text text-lighten-4" style="min-height:17rem; padding:2rem;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam mauris eu arcu viverra, vitae volutpat nisl dignissim. Donec eget orci venenatis, volutpat massa nec, ornare erat. Mauris ac dui vel elit accumsan rutrum nec egestas sapien. Nam lacinia mattis urna, id mattis nisi mattis sit amet. Integer mattis massa ut arcu faucibus suscipit.
+
+<blockquote>Esta es un página de practica realizada con Materialize el framework de Google.</blockquote>
+</div>
+    </div>
+
+    <!--Noticias Component-->
+    <div class="col l3 m3 s3 #fff9c4 yellow lighten-4
+ hide-on-med-and-down offset-l1 noticias">
+      <h5>Ultimas noticias</h5>
+      <img src="Automovil-Nissan-March-05.jpg" width="100%">
+      <p class="Truncate">Nam lacinia mattis urna, id mattis nisi mattis sit amet.</p>
+      <img src="Automovil-Nissan-March-04.jpg" width="100%">
+      <p class="Truncate">Integer aliquam mauris eu arcu viverra, vitae volutpat nisl dignissim.</p>
+      <img src="Automovil-Nissan-March-01.jpg" width="100%">
+      <p class="Truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
   </div>
 </div>
 
 <!--Columna de Chat-->
-<div class="card-panel l3 m3 s3 #8d6e63 brown lighten-1 izq1 hide-on-small-only nopadding">
+<div class="col l3 m3 s3 #8d6e63 brown lighten-1 izq1 hide-on-small-only nopadding">
 <!--Bloque 01-->
-  <div class="card-panel l12 m12 s12 #8d6e63 #d7ccc8 brown lighten-4 halfBlock">HOLA</div>
+  <div class="col l12 m12 s12 #8d6e63 #d7ccc8 brown lighten-4 halfBlock">HOLA</div>
 <!--Bloque 02-->
-  <div class="card-panel l6 m6 s6 #a1887f brown lighten-2 halfBlock">HOLA</div>
+  <div class="col l12 m12 s12 #a1887f brown lighten-2 halfBlock">NADA</div>
 
 </div>
 
